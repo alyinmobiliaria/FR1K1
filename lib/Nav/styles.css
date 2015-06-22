@@ -1,0 +1,13 @@
+nav.Modulo {
+  left: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 6;
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.8);
+}
+nav.Modulo ul.container li.flex-item a.Link img.Nav_img {
+  width: 30px;
+}
