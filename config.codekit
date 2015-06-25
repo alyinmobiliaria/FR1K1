@@ -136,6 +136,42 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/lib\/Anterior\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/Anterior\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/Anterior\/styles.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/lib\/Anterior\/styles.styl",
+		"outputAbbreviatedPath": "\/lib\/css\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"\/lib\/Anterior\/template.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/Anterior\/template.jade",
+		"outputAbbreviatedPath": "\/lib\/Anterior\/template.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/lib\/app.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -241,6 +277,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/lib\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/lib\/Footer\/styles.css": {
 		"fileType": 16,
@@ -364,42 +409,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/Header\/template.jade",
 		"outputAbbreviatedPath": "\/lib\/Header\/template.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/lib\/Home\/styles.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/Home\/styles.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lib\/Home\/styles.styl": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/lib\/Home\/styles.styl",
-		"outputAbbreviatedPath": "\/lib\/css\/styles.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
-	"\/lib\/Home\/template.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/Home\/template.jade",
-		"outputAbbreviatedPath": "\/lib\/Home\/template.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0

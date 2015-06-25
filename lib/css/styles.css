@@ -1,0 +1,30 @@
+section.Anterior {
+  background: #f00;
+  margin-top: 101px;
+}
+ul.flex-container {
+  -webkit-flex-flow: row wrap;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+ul.flex-container li.flex-item {
+  margin-right: auto;
+  margin-left: auto;
+  background: #049dd9;
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
