@@ -1,35 +1,343 @@
 //COLORES FR1K1.COM
 frblue = #049DD9
-//MODULO: Anterior
-    section.Anterior
-      margin-top 103px
-      div.flex-container
-        -webkit-flex-flow row wrap
-        display -moz-box
-        display -ms-flexbox
-        display -webkit-box
-        display -webkit-flex
-        display flex
-        justify-content space-around
-        list-style none
-        padding-bottom 10px
-        margin-bottom 4px
-        margin 0px
-        width 100%
-         a.flex-item
-          width 300px
-          height 100%
-          background frblue
-          background-image src="../public/images/cardontv.png"
-          // color white
-          // font-size 3em
-          // font-weight bold
-          // height 180px
-          // line-height 180px
-          // margin-left auto
-          // margin-right auto
-          // margin-top 10px
-          // padding 0px
-          // text-align center
-          // width 300px
-               
+//MODULO: Slider
+section.Anterior
+	border-bottom 3px solid frblue
+	height auto
+	width 100%
+	margin-right auto
+	margin-left auto
+	h2.Title
+		text-align center
+		background rgba(211, 211, 211, 0.7)
+		border-bottom: 3px solid frblue
+		margin-top 0px
+		height 50px
+		line-height 50px
+		font-size 1.5em
+		box-shadow 0 20px 20px -12px black
+		width 100%
+	div.Container-columnas
+		-webkit-flex-flow row wrap
+		display -moz-box
+		display -ms-flexbox
+		display -webkit-box
+		display -webkit-flex
+		display inline-flex
+		height auto
+		justify-content space-around
+		margin-right auto
+		margin-left auto
+		width 100%
+		div.Columna1, div.Columna2, div.Columna3, div.Columna4, div.Columna5, div.Columna6
+			margin 15px
+			padding 0
+			width 98%
+			background black
+			box-shadow 0 0 0 10px white,
+          			   0 0 0 11px frblue,
+          			   0 20px 20px -12px black
+			a.Noticia1-link
+				background steelblue
+				height auto
+				margin 0px
+				padding 0px
+				width 310px
+				text-decoration none
+				article.Noticia1-article
+					width 100%
+					height auto
+					header.Noticia1-portada
+						width 100%
+						height auto
+						img.Noticia1-portadaImg
+							width 100%
+							height auto
+					div.Noticia1-info
+						-webkit-flex-flow row
+						display -moz-box
+						display -ms-flexbox
+						display -webkit-box
+						display -webkit-flex
+						display flex
+						height 30px
+						width 100%
+						img.Noticia1-seccion
+							width 20px
+							padding 0px 3px 0px 3px
+							margin 0px 1px 0px 1px
+							line-height 30px
+						h3.Noticia1-title2
+							font-size 1.2em
+							margin 0px 1px 0px 1px
+							padding 0px 3px 0px 3px
+							line-height 30px
+							color white
+					h2.Noticia1-title1
+						margin 0px 4px 0px 4px
+						padding 0px
+						color white
+					p.Noticia1-intro
+						margin 0px 4px 0px 4px
+						padding 0px
+						color white
+						
+// DESDE AQUÍ INICIA EL RESPONSIVE DESIGN DE ESTA SECCIÓN
+
+@media screen and (min-width 320px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					margin 20px auto
+					width 90%
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.4em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.3em
+@media screen and (min-width 400px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 90%
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.5em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.3em
+@media screen and (min-width 494px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 430px
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.5em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.4em
+@media screen and (min-width 600px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 500px
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.6em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.5em
+@media screen and (min-width 1000px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 599px
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.7em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.6em
+@media screen and (min-width 1198px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 570px
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.7em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.6em
+@media screen and (min-width 1600px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 430px
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.7em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.6em
+@media screen and (min-width 1710px)
+	html
+		section.Anterior
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					width 530px
+					a.Noticia1-link
+						width 100%
+						height auto
+						article.Noticia1-article
+							width 100%
+							height auto
+							header.Noticia1-portada
+								width 100%
+								height auto
+								img.Noticia1-portadaImg
+									width 100%
+							div.Noticia1-info
+								width 100%
+								img.Noticia1-seccion
+									width 30px
+								h3.Noticia1-title2
+									font-size 1.7em
+							h2.Noticia1-title1
+								font-size 1.8em
+							p.Noticia1-intro
+								font-size 1.6em

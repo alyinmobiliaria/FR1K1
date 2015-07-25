@@ -1,28 +1,51 @@
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
+section.Alianzas {
+  border-bottom: 3px solid #049dd9;
+  height: auto;
   width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
   margin-right: auto;
   margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
+}
+section.Alianzas h2.Title {
   text-align: center;
+  background: rgba(211,211,211,0.7);
+  border-bottom: 3px solid #049dd9;
+  margin-top: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5em;
+  box-shadow: 0 20px 20px -12px #000;
+  width: 100%;
+}
+section.Alianzas div.Container-logos {
+  width: 99%;
+  -webkit-flex-flow: row wrap;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+}
+section.Alianzas div.Container-logos div.Container-logo1,
+section.Alianzas div.Container-logos div.Container-logo2,
+section.Alianzas div.Container-logos div.Container-logo3,
+section.Alianzas div.Container-logos div.Container-logo4 {
+  margin: 10px auto 10px auto;
+  width: 300px;
+  box-shadow: 0 0 0 1px #049dd9, 0 0 0 1px #049dd9, 0 20px 20px -12px #000;
+}
+section.Alianzas div.Container-logos div.Container-logo1 a.Container-link,
+section.Alianzas div.Container-logos div.Container-logo2 a.Container-link,
+section.Alianzas div.Container-logos div.Container-logo3 a.Container-link,
+section.Alianzas div.Container-logos div.Container-logo4 a.Container-link {
+  width: 100%;
+  text-decoration: none;
+  height: auto;
+}
+section.Alianzas div.Container-logos div.Container-logo1 a.Container-link img.Container-logo,
+section.Alianzas div.Container-logos div.Container-logo2 a.Container-link img.Container-logo,
+section.Alianzas div.Container-logos div.Container-logo3 a.Container-link img.Container-logo,
+section.Alianzas div.Container-logos div.Container-logo4 a.Container-link img.Container-logo {
+  width: 100%;
+  background: transparent;
 }

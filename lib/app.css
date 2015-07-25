@@ -10,12 +10,17 @@ nav.Modulo {
   z-index: 6;
 }
 nav.Modulo ul.container {
-  display: inline-flex;
   height: 100%;
   list-style: none;
   margin: 0px auto;
   padding: 0px;
   width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
 }
 nav.Modulo ul.container li.flex-item {
   height: 100%;
@@ -35,8 +40,8 @@ nav.Modulo ul.container li.flex-item a.Link img.Nav_img {
   width: 30px;
 }
 header.Modulo {
-  background: #d3d3d3;
-  height: 100px;
+  background: rgba(0,0,0,0.7);
+  height: auto;
   left: 0px;
   margin: 0px;
   padding: 0px;
@@ -45,312 +50,1772 @@ header.Modulo {
   border-bottom: 3px solid #049dd9;
   top: 0px;
   width: 100%;
-  z-index: 10px;
+  z-index: 50px;
 }
 header.Modulo figure.Logo {
-  height: 100px;
+  height: auto;
   width: 100%;
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 header.Modulo figure.Logo img.Logo_img {
-  width: 248px;
+  width: 180px;
+  line-height: 100%;
 }
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
+section.Anterior {
+  border-bottom: 3px solid #049dd9;
+  height: auto;
   width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+section.Anterior h2.Title {
+  text-align: center;
+  background: rgba(211,211,211,0.7);
+  border-bottom: 3px solid #049dd9;
+  margin-top: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5em;
+  box-shadow: 0 20px 20px -12px #000;
+  width: 100%;
+}
+section.Anterior div.Container-columnas {
+  -webkit-flex-flow: row wrap;
   display: -moz-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
-  width: 100%;
-  padding: 0;
-  list-style: none;
   display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
+  display: inline-flex;
+  height: auto;
   justify-content: space-around;
-}
-ul.flex-container li.flex-item {
   margin-right: auto;
   margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
   width: 100%;
+}
+section.Anterior div.Container-columnas div.Columna1,
+section.Anterior div.Container-columnas div.Columna2,
+section.Anterior div.Container-columnas div.Columna3,
+section.Anterior div.Container-columnas div.Columna4,
+section.Anterior div.Container-columnas div.Columna5,
+section.Anterior div.Container-columnas div.Columna6 {
+  margin: 15px;
   padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  width: 98%;
+  background: #000;
+  box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
 }
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
-  width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
-  width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
-  width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
-  width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-ul.flex-container {
-  margin-top: 105px;
-  margin-bottom: 65px;
-  width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-footer.Modulo {
-  background: #d3d3d3;
-  border-top: 3px solid #049dd9;
-  margin-bottom: 53px;
-  height: 100px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-}
-footer.Modulo div.Modulo-redes {
-  padding: 0px;
-  width: 160px;
-  height: 100px;
-  margin-right: auto;
-  margin-left: auto;
-}
-footer.Modulo div.Modulo-redes h2 {
-  padding: 10px 0px 0px 0px;
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+  background: #4682b4;
+  height: auto;
   margin: 0px;
-  text-align: center;
-  color: solid #a9a9a9;
-}
-footer.Modulo div.Modulo-redes div.Modulo-enlaces {
-  width: 100%;
-  height: 60px;
   padding: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 310px;
+  text-decoration: none;
 }
-footer.Modulo div.Modulo-redes div.Modulo-enlaces a.Modulo-link img.Modulo-img {
-  width: 50px;
-}
-h2.Alianzas {
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
   width: 100%;
-  background: #d3d3d3;
-  border-top: 3px solid #049dd9;
-  text-align: center;
+  height: auto;
 }
-p {
-  text-align: center;
-}
-ul.flex-container {
-  margin-bottom: 10px;
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
   width: 100%;
-  padding: 0;
-  list-style: none;
-  display: -webkit-box;
+  height: auto;
+}
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+  width: 100%;
+  height: auto;
+}
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+  -webkit-flex-flow: row;
   display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  height: 30px;
+  width: 100%;
 }
-ul.flex-container li.flex-item {
-  margin-right: auto;
-  margin-left: auto;
-  background: #049dd9;
-  padding: 5px;
-  width: 300px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+  width: 20px;
+  padding: 0px 3px 0px 3px;
+  margin: 0px 1px 0px 1px;
+  line-height: 30px;
+}
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+  font-size: 1.2em;
+  margin: 0px 1px 0px 1px;
+  padding: 0px 3px 0px 3px;
+  line-height: 30px;
   color: #fff;
-  font-weight: bold;
-  font-size: 3em;
+}
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+  color: #fff;
+}
+section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+  color: #fff;
+}
+@media screen and (min-width: 320px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 90%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.4em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 400px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 90%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.5em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 494px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 430px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.5em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 600px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 500px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.6em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 599px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1198px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 570px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 430px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1710px) {
+  html section.Anterior div.Container-columnas div.Columna1,
+  html section.Anterior div.Container-columnas div.Columna2,
+  html section.Anterior div.Container-columnas div.Columna3,
+  html section.Anterior div.Container-columnas div.Columna4,
+  html section.Anterior div.Container-columnas div.Columna5,
+  html section.Anterior div.Container-columnas div.Columna6 {
+    width: 530px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Anterior div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+section.Alianzas {
+  border-bottom: 3px solid #049dd9;
+  height: auto;
+  width: 100%;
+  padding: 0px;
+}
+section.Alianzas h2.Title {
   text-align: center;
+  background: rgba(211,211,211,0.7);
+  border-bottom: 3px solid #049dd9;
+  margin-top: 0px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.5em;
+  box-shadow: 0 20px 20px -12px #000;
+  width: 100%;
+}
+section.Alianzas div.Alianzas-newsContainer {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  padding: 0px;
+  margin-bottom: 53px;
+  margin-top: 94px;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container {
+  -webkit-flex-flow: row wrap;
+  background: #fff;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: uto;
+  justify-content: center;
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item {
+  width: 300px;
+  height: auto;
+  -webkit-flex-flow: row wrap;
+  background: #fff;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  margin: 20px auto 20px auto;
+  padding: 0px;
+  background: #000;
+  box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
+  width: 100%;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
+  width: 100%;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  -webkit-flex-flow: row wrap;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
+  width: 20px;
+  padding: 0px 3px 0px 3px;
+  margin: 0px 1px 0px 1px;
+  line-height: 30px;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
+  padding: 0px 3px 0px 3px;
+  margin: 0px 1px 0px 1px;
+  line-height: 30px;
+  font-size: 1em;
+  color: #fff;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+  color: #fff;
+  font-size: 1.3em;
+}
+section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
+  font-size: 1em;
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+  color: #fff;
+}
+section.Principales {
+  border-bottom: 3px solid #049dd9;
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  margin-top: 95px;
+}
+section.Principales div.Container-columnas {
+  -webkit-flex-flow: row wrap;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: inline-flex;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+}
+section.Principales div.Container-columnas div.Columna1,
+section.Principales div.Container-columnas div.Columna2,
+section.Principales div.Container-columnas div.Columna3,
+section.Principales div.Container-columnas div.Columna4,
+section.Principales div.Container-columnas div.Columna5,
+section.Principales div.Container-columnas div.Columna6 {
+  margin: 15px;
+  padding: 0;
+  width: 99%;
+  background: #000;
+  box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+  background: #4682b4;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  width: 310px;
+  text-decoration: none;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+  width: 100%;
+  height: auto;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+  width: 100%;
+  height: auto;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+  width: 100%;
+  height: auto;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+  -webkit-flex-flow: row;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 30px;
+  width: 100%;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+  width: 20px;
+  padding: 0px 3px 0px 3px;
+  margin: 0px 1px 0px 1px;
+  line-height: 30px;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+  font-size: 1.2em;
+  margin: 0px 1px 0px 1px;
+  padding: 0px 3px 0px 3px;
+  line-height: 30px;
+  color: #fff;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+  color: #fff;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+  margin: 0px 4px 0px 4px;
+  padding: 0px;
+  color: #fff;
+}
+@media screen and (min-width: 320px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 90%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.4em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 400px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 90%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.5em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.3em;
+  }
+}
+@media screen and (min-width: 494px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 430px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.5em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 600px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 500px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.6em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 599px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1198px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 570px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 430px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+@media screen and (min-width: 1710px) {
+  html section.Principales div.Container-columnas div.Columna1,
+  html section.Principales div.Container-columnas div.Columna2,
+  html section.Principales div.Container-columnas div.Columna3,
+  html section.Principales div.Container-columnas div.Columna4,
+  html section.Principales div.Container-columnas div.Columna5,
+  html section.Principales div.Container-columnas div.Columna6 {
+    width: 530px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 30px;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.7em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.8em;
+  }
+  html section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1.6em;
+  }
+}
+html {
+  width: 100%;
 }
 body.Home {
+  width: 100%;
+  height: auto;
   background: #fff;
+  font-family: Oswald;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 0px 53px 0px;
 }
