@@ -885,13 +885,7 @@ section.Anterior div.Container-columnas div.Columna6 a.Noticia1-link article.Not
     font-size: 1.6em;
   }
 }
-section.Alianzas {
-  border-bottom: 3px solid #049dd9;
-  height: auto;
-  width: 100%;
-  padding: 0px;
-}
-section.Alianzas h2.Title {
+h2.Title {
   text-align: center;
   background: rgba(211,211,211,0.7);
   border-bottom: 3px solid #049dd9;
@@ -902,102 +896,394 @@ section.Alianzas h2.Title {
   box-shadow: 0 20px 20px -12px #000;
   width: 100%;
 }
-section.Alianzas div.Alianzas-newsContainer {
+div.Alianzas-container {
   width: 100%;
   height: auto;
-  background: transparent;
   padding: 0px;
-  margin-bottom: 53px;
-  margin-top: 94px;
+  margin: 0px;
+  border-bottom: 3px solid #049dd9;
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container {
+div.Alianzas-container ul.flex-container {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
   -webkit-flex-flow: row wrap;
-  background: #fff;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-box;
   display: -webkit-flex;
-  display: flex;
-  height: uto;
-  justify-content: center;
+  display: inline-flex;
+  justify-content: space-around;
   list-style: none;
-  padding: 0px;
-  width: 100%;
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item {
-  width: 300px;
+div.Alianzas-container ul.flex-container li.flex-item {
+  width: 85%;
   height: auto;
-  -webkit-flex-flow: row wrap;
-  background: #fff;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  background: #000;
-  margin: 20px auto 20px auto;
+  margin: 20px auto;
   padding: 0px;
-  background: #000;
   box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article {
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-}
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
+div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
   width: 100%;
   height: auto;
   padding: 0px;
-  margin: 0px;
+  text-decoration: none;
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-  width: 100%;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
-}
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
+div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
   width: 100%;
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-  width: 100%;
-  height: 30px;
-  padding: 0px;
-  margin: 0px;
-  -webkit-flex-flow: row wrap;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
+@media screen and (min-width: 320px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 85%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-  width: 20px;
-  padding: 0px 3px 0px 3px;
-  margin: 0px 1px 0px 1px;
-  line-height: 30px;
+@media screen and (min-width: 400px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-  padding: 0px 3px 0px 3px;
-  margin: 0px 1px 0px 1px;
-  line-height: 30px;
-  font-size: 1em;
-  color: #fff;
+@media screen and (min-width: 400px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 310px;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-  margin: 0px 4px 0px 4px;
-  padding: 0px;
-  color: #fff;
-  font-size: 1.3em;
+@media screen and (min-width: 620px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 40%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
 }
-section.Alianzas div.Alianzas-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-  font-size: 1em;
-  margin: 0px 4px 0px 4px;
-  padding: 0px;
-  color: #fff;
+@media screen and (min-width: 800px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 350px;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1050px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 320px;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  html section.Alianzas {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    -webkit-flex-flow: row wrap;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item {
+    width: 20%;
+    height: auto;
+    margin: 20px auto;
+    padding: 0px;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    text-decoration: none;
+  }
+  html section.Alianzas div.Alianzas-container ul.flex-container li.flex-item a.flex-itemLink img.flex-itemLogo {
+    width: 100%;
+  }
 }
 section.Principales {
   border-bottom: 3px solid #049dd9;
@@ -1807,6 +2093,66 @@ section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.
   html section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
     font-size: 1.6em;
   }
+}
+footer.Contacto {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  background: #049dd9;
+}
+footer.Contacto div.Footer-logoContainer {
+  width: 100%;
+  height: 100px;
+  padding: 0px;
+  background: #f00;
+  text-align: center;
+}
+footer.Contacto div.Footer-logoContainer img.Footer-logo {
+  width: 200px;
+  padding: 25px;
+  line-height: 50%;
+}
+footer.Contacto div.Footer-redesContainer {
+  width: 300px;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  background: #000;
+}
+footer.Contacto div.Footer-redesContainer ul.Footer-redesLista {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  -webkit-flex-flow: row;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+}
+footer.Contacto div.Footer-redesContainer ul.Footer-redesLista li.Footer-red {
+  width: 33%;
+  height: 100px;
+  line-height: 100%;
+}
+footer.Contacto div.Footer-redesContainer ul.Footer-redesLista li.Footer-red a.Footer-redLink {
+  width: 100%;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 100%;
+}
+footer.Contacto div.Footer-redesContainer ul.Footer-redesLista li.Footer-red a.Footer-redLink img.Footer-redImg {
+  width: 50%;
+  padding: 0px;
+  margin: 0px;
+  line-height: 100%;
+  height: auto;
 }
 html {
   width: 100%;
