@@ -1,58 +1,350 @@
 //COLORES FR1K1.COM
 frblue = #049DD9
 //Estilos de Footer
+
 footer.Contacto
 	width 100%
 	height auto
 	padding 0px
 	margin 0px
-	background frblue
-	div.Footer-logoContainer
-		width 100%
-		height 100px
-		padding 0px
-		background red
+	margin-bottom 53px
+	h2.Title
 		text-align center
-		img.Footer-logo
-			width 200px
-			padding 25px
-			line-height 50%
-	div.Footer-redesContainer
-		width 300px
-		height 100px
-		padding 0px
+		background rgba(211, 211, 211, 0.7)
+		border-bottom: 3px solid frblue
+		margin-top 0px
+		height 50px
+		line-height 50px
+		font-size 1.5em
+		box-shadow 0 20px 20px -12px black
+		width 100%
+	section.Footer-contacto
+		width 100%
+		height 100%
 		margin 0px
-		background black
-		ul.Footer-redesLista
+		padding 0px
+		ul.flex-container
 			width 100%
 			height 100%
-			margin 0px
 			padding 0px
-			list-style none
-			-webkit-flex-flow row
+			margin 0px
+			-webkit-flex-flow row wrap
 			display -moz-box
 			display -ms-flexbox
 			display -webkit-box
 			display -webkit-flex
 			display inline-flex
-			justify-content center
-			text-align center
-			li.Footer-red
-				width 33%
-				height 100px
-				line-height 100%
-				a.Footer-redLink
+			height auto
+			justify-content space-around
+			margin-right auto
+			margin-left auto
+			list-style none
+			box-sizing border-box
+			li.flex-item:nth-child(1)
+				-webkit-flex-flow row wrap
+				background white
+				box-sizing border-box
+				box-sizing border-box
+				display -moz-box
+				display -ms-flexbox
+				display -webkit-box
+				display -webkit-flex
+				display inline-flex
+				height auto
+				height auto
+				justify-content space-around
+				margin 0px
+				text-align center
+				text-align center
+				width 100%
+				div.flex-itemImg
 					width 100%
-					height 100px
+					height auto
+					margin 5px auto
+					padding 0px
+					text-align center
+					box-sizing border-box
+					img.flex-itemLogofont
+						width 250px
+						margin 0px auto
+						padding 5px
+				div.flex-itemInfo
+					width 100%
+					height auto
+					margin 5px auto
+					padding 0px
+					p
+						font-size 1em
+						text-align left
+						padding 0px 15px
+						margin 0px 
+				div.flex-itemBtn
+					width 100%
+					height auto
+					margin 5px auto
+					padding 0px
+					a.flex-itemBtnContacto
+						color white
+						margin 0px
+						padding 2px 30px
+						width 80%
+						height auto
+						background frblue
+						border-radius 1px
+						text-decoration none
+			li.flex-item:nth-child(2)
+				box-sizing border-box
+				height auto
+				margin 0px
+				width 100%
+				form
+					width 100%
+					margin auto
+					background frblue /*rgba(0, 0, 0, 0.4)*/
+					padding 10px 20px
+					box-sizing border-box
+					margin-top 0px
+					h2
+						color #fff
+						text-align center
+						margin 0px
+						font-size 30px
+						margin-bottom 20px
+					p 
+						font-size 1em
+						text-align left
+					input, textarea
+						width 100%
+						margin-bottom 20px
+						padding 7px
+						box-sizing border-box
+						border none
+						font-size 1em
+					textarea
+						min-height 100px
+						max-height 200px
+						max-width 100%
+					#boton
+						background #31384A
+						color #fff
+						padding 20px
+					#boton:hover
+						cursor pointer
+			li.flex-item:nth-child(3)
+				height auto
+				width 100%
+				padding 0px
+				text-align center
+				background white
+				text-align center
+				box-sizing border-box
+				-webkit-flex-flow row wrap
+				display -moz-box
+				display -ms-flexbox
+				display -webkit-box
+				display -webkit-flex
+				display inline-flex
+				height auto
+				justify-content space-around
+				box-sizing border-box
+				div.Title
+					width 100%
+					h2.Redes-title
+						font-size 1.5em
+					p	
+						font-size 1em
+						text-align left	
+						padding 0px 15px			
+				div.Facebook, div.Twitter, div.Google
+					width 30%
+					a.Facebook-link, a.Twitter-link, a.Google-link
+						width 100%
+						img.Facebook-icon, img.Twitter-icon, img.Google-icon
+							width 50px
+@media screen and (min-width 320px)
+	html
+		footer.Contacto
+			width 100%
+			height 100%
+			padding 0px
+			section.Footer-contacto
+				margin 0px
+				padding 0px
+				width 100%
+				height 100%			
+				ul.flex-container
+					width 100%
+					height 100%
+					background lightgray
 					padding 0px
 					margin 0px
-					line-height 100%
-					img.Footer-redImg
-						width 50%
-						padding 0px
-						margin 0px
-						line-height 100%
+					-webkit-flex-flow column
+					display -moz-box
+					display -ms-flexbox
+					display -webkit-box
+					display -webkit-flex
+					display flex
+					height auto
+					justify-content center
+					margin-right auto
+					margin-left auto
+					list-style none
+					box-sizing border-box
+					flex-direction column
+					li.flex-item:nth-child(1)
+						width 100%
 						height auto
-			
-		
-		
+						margin 0px
+						div.flex-itemImg, div.flex-itemInfo, div.flex-itemBtn
+							width 100%
+							height auto
+					li.flex-item:nth-child(2)
+						width 100%
+						height auto
+						margin 0px
+					li.flex-item:nth-child(3)
+						width 100%
+						height auto
+						margin 0px
+@media screen and (min-width 400px)
+	html
+		footer.Contacto
+			width 100%
+			height 100%
+			padding 0px
+			section.Footer-contacto
+				margin 0px
+				padding 0px
+				width 100%
+				height 100%			
+				ul.flex-container
+					width 100%
+					height 100%
+					background lightgray
+					padding 0px
+					margin 0px
+					-webkit-flex-flow column
+					display -moz-box
+					display -ms-flexbox
+					display -webkit-box
+					display -webkit-flex
+					display flex
+					height auto
+					justify-content center
+					margin-right auto
+					margin-left auto
+					list-style none
+					box-sizing border-box
+					flex-direction column
+					li.flex-item:nth-child(1)
+						width 100%
+						height auto
+						margin 0px auto
+						div.flex-itemImg, div.flex-itemInfo, div.flex-itemBtn
+							width 100%
+							height auto
+					li.flex-item:nth-child(2)
+						width 100%
+						height auto
+						margin 0px auto
+					li.flex-item:nth-child(3)
+						width 100%
+						height auto
+						margin 0px auto					
+@media screen and (min-width 500px)
+	html
+		footer.Contacto
+			width 100%
+			height 100%
+			padding 0px
+			section.Footer-contacto
+				margin 0px
+				padding 0px
+				width 100%
+				height 100%			
+				ul.flex-container
+					width 100%
+					height 100%
+					background lightgray
+					padding 0px
+					margin 0px
+					-webkit-flex-flow column
+					display -moz-box
+					display -ms-flexbox
+					display -webkit-box
+					display -webkit-flex
+					display flex
+					height auto
+					justify-content center
+					margin-right auto
+					margin-left auto
+					list-style none
+					box-sizing border-box
+					flex-direction column
+					li.flex-item:nth-child(1)
+						width 100%
+						height auto
+						margin 0px auto
+						div.flex-itemImg, div.flex-itemInfo, div.flex-itemBtn
+							width 100%
+							height auto
+					li.flex-item:nth-child(2)
+						width 100%
+						height auto
+						margin 0px auto
+					li.flex-item:nth-child(3)
+						width 100%
+						height auto
+						margin 0px auto	
+@media screen and (min-width 800px)
+	html
+		footer.Contacto
+			width 100%
+			height 100%
+			padding 0px
+			section.Footer-contacto
+				margin 0px
+				padding 0px
+				width 100%
+				height 100%			
+				ul.flex-container
+					width 100%
+					height 100%
+					background lightgray
+					padding 0px
+					margin 0px
+					-webkit-flex-flow row wrap
+					display -moz-box
+					display -ms-flexbox
+					display -webkit-box
+					display -webkit-flex
+					display flex
+					height auto
+					justify-content center
+					margin-right auto
+					margin-left auto
+					list-style none
+					box-sizing border-box
+					flex-direction row
+					li.flex-item:nth-child(1)
+						width 33.3%
+						height auto
+						margin 0px auto 5px 0px 
+					li.flex-item:nth-child(2)
+						width 33.3%
+						height auto
+						margin 0px auto 5px 0px 
+					li.flex-item:nth-child(3)
+						width 33.3%
+						height auto
+						margin 0px auto 5px 0px 
+						border-top none
+
+
+
+
+
+
+
+
+
