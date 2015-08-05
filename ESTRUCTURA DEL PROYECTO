@@ -1,0 +1,28 @@
+//DIRECTORIO PRINCIPAL(Dir ó dir)
+fr
+//CONTENIDO DEL DIRECTORIO
+------------------------------------------------------------------------------
+//Contenido en public
+- public
+//Contenido
+- - images
+- - - .png
+- - - .svg
+- - - .jpg
+- - css
+- - - Los estilos generales de la app
+
+//Contenido en lib (Archivos de dessarrollo)
+- lib
+- - Header
+- - Nav
+- - Alianzas
+- - Anterior
+- - Footer
+- - NewsB
+- - NewsC
+- - NewsG
+- - NewsT
+- - NewsV
+- - Principales
+

@@ -1,0 +1,59 @@
+LISTA DE TAREAS
+
+1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI()  NO()
+2. CREAR TEMPLATE DE NOTICIA- ¿SE HIZO? SI()  NO()
+3. CREAR FORMULARIOS LEADS Y CONTACTO CON PHP ("Se recomienda tomar el curso profesional de PLATZI") SI()  NO()
+4. CREAR TEMPLATE DE TIENDA (Queda pendiente definir activiades) SI()  NO()
+5. ORGANIZAR DIRECTORIOS (URGENTE) SI()  NO()
+------------------------------------------------------------------------
+1) DIRECTORIO DE NOTICIAS
+FR
+- NOTICIAS
+---2015
+----OCTUBRE
+-----Archivo .html
+-- CINE
+---2015
+----OCTUBRE
+-----Archivo .html
+-- GAMES
+---2015
+----OCTUBRE
+-----Archivo .html
+-- TV
+---2015
+----OCTUBRE
+-----Archivo .html
+-- MUSIC
+---2015
+----OCTUBRE
+-----Archivo .html
+-- BOOKS
+---2015
+----OCTUBRE
+-----Archivo .html
+-- VIDEOS
+---2015
+----OCTUBRE
+-----Archivo .html
+
+-------------------------------------------------------------
+2) TEMPLATE DE NOTICIAS
+- SEO
+- LINK BUILDING (Técnica SEO)
+- UBICARLO EN BASE DE DATOS
+
+-------------------------------------------------------------
+3) FORMULARIOS
+- Crear leads y dejarlos activos en server
+- Crear formulario de contacto y dejarlo activo en server
+- Tomar curso de PHP profesional de PLATZI
+
+-------------------------------------------------------------
+4) TEMPLATE PARA TIENDA
+- Queda pendiente las discusión para las actividades.
+
+-------------------------------------------------------------
+5) ORGANIZACIÓN DE DIRECTORIOS
+
+- Exportar todos los archivos a las carpetas públicas, separando los archivos de desarrollo con los de producción.
