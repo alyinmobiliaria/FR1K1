@@ -1,41 +1,28 @@
 LISTA DE TAREAS
+--AGOSTO DEL 2015--
+0. TAREAS QUE SIEMPRE DEBEMOS HACER:
+- Subir reporsitorios a Github
+- Compilar archivos .jade y .styl desde consola
+- Correr prepros y borrar archivos quee ese produce (.cfg)
 
-1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI()  NO()
+--SIN REALIZAR:
 2. CREAR TEMPLATE DE NOTICIA- ¿SE HIZO? SI()  NO()
 3. CREAR FORMULARIOS LEADS Y CONTACTO CON PHP ("Se recomienda tomar el curso profesional de PLATZI") SI()  NO()
 4. CREAR TEMPLATE DE TIENDA (Queda pendiente definir activiades) SI()  NO()
-5. ORGANIZAR DIRECTORIOS (URGENTE) SI()  NO()
+6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS
+7. Adaptar Template de Header y Nav, para dispositivos moviles.
+8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN
+--REALIZADAS:
+1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI(x)  NO() - "Queda pendiente directorio de Blog"
+5. ORGANIZAR DIRECTORIOS (URGENTE) SI(x)  NO()
 ------------------------------------------------------------------------
 1) DIRECTORIO DE NOTICIAS
 FR
-- NOTICIAS
----2015
-----OCTUBRE
------Archivo .html
--- CINE
----2015
-----OCTUBRE
------Archivo .html
--- GAMES
----2015
-----OCTUBRE
------Archivo .html
--- TV
----2015
-----OCTUBRE
------Archivo .html
--- MUSIC
----2015
-----OCTUBRE
------Archivo .html
--- BOOKS
----2015
-----OCTUBRE
------Archivo .html
--- VIDEOS
----2015
-----OCTUBRE
------Archivo .html
+- /NEWS
+--/2015
+---/MES("En el que vayamos")
+----/SECCIÓN("A la que corresponda la noticia")
+-----.html
 
 -------------------------------------------------------------
 2) TEMPLATE DE NOTICIAS
@@ -57,3 +44,20 @@ FR
 5) ORGANIZACIÓN DE DIRECTORIOS
 
 - Exportar todos los archivos a las carpetas públicas, separando los archivos de desarrollo con los de producción.
+
+SE HIZO: Se pasaron archivos .jade principales a /lib, se compilaron y se exportaron a /fr (Directorio principal). Se cambio rutas para los .css de las páginas principales.
+
+-------------------------------------------------------------
+6) CAMBIAR BOOKS A BLOG
+- La sección se penso inicialmente para 2 cosas puntuales, 1) manga y 2) fenomenos literarios. Pero quedan faltando más temas que se deben abarcar, como tecno, opinión y más.
+- Debes reemplazar los archivos .jade, .styl para que coincidan.
+
+-------------------------------------------------------------
+7) MODIFICAR TAMPLATES DE HEADER Y NAV
+- Como estos dos templates están como fixed, al momento de ver noticias, ingresar datos a los formularios, le quitán espacio al viewport para mostrar el contenido, por eso es mejor corregir y darle position fixed.
+- Para las pantallas No Moviles, podría volver a implementarse el fixed.
+
+-------------------------------------------------------------
+8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN
+- Agregar con la etiqueta correspondiente para que sea visible para el usuario la fecha de publicación.
+- Agregar botones para compartir las noticias directamente desde las secciones principales o anteriores.

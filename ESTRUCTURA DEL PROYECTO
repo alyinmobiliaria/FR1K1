@@ -3,26 +3,75 @@ fr
 //CONTENIDO DEL DIRECTORIO
 ------------------------------------------------------------------------------
 //Contenido en public
-- public
+.php
+.html
+- /public
 //Contenido
 - - images
 - - - .png
 - - - .svg
 - - - .jpg
-- - css
+- - /css
 - - - Los estilos generales de la app
 
 //Contenido en lib (Archivos de dessarrollo)
-- lib
-- - Header
-- - Nav
-- - Alianzas
-- - Anterior
-- - Footer
-- - NewsB
-- - NewsC
-- - NewsG
-- - NewsT
-- - NewsV
-- - Principales
+- /lib
+- - /Header
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /Nav
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /Alianzas
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /Anterior
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /Footer
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /NewsB
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /NewsC
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /NewsG
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /NewsT
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /NewsV
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - /Principales
+- - - .jade
+- - - .html
+- - - .styl
+- - - .css
+- - .jade
+- - .styl
+- - .css
 
