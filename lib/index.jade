@@ -9,14 +9,14 @@ html(lang="es")
 		link(rel="shortcut icon", href="../public/images/icon.png" type="image/svg")
 		link(rel="stylesheet", href="../public/css/app.css")
 		link(rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald")
-	body(class="Home")
-		include ./Header/template.jade
-		include ./Nav/template.jade
-		section(class="Principales")
-			include ./Principales/template.jade
-		section(class="Anterior")
-			include ./Anterior/template.jade
-		section(class="Alianzas")
-			include ./Alianzas/template.jade
-	footer(class="Contacto")
-		include ./Footer/template.jade
+body(class="Home")
+	include ./Header/template.jade
+	section(class="Principales")
+		include ./Principales/template.jade
+	section(class="Anterior")
+		include ./Anterior/template.jade
+	section(class="Alianzas")
+		include ./Alianzas/template.jade
+footer(class="Contacto")
+	include ./Footer/template.jade
+	include ./Nav/template.jade

@@ -4,10 +4,10 @@ nav.Modulo {
   bottom: 0;
   height: 50px;
   left: 0;
-  position: fixed;
+/*position fixed*/
   right: 0;
   width: 100%;
-  z-index: 6;
+/*z-index 6*/
 }
 nav.Modulo ul.container {
   height: 100%;
@@ -45,12 +45,11 @@ header.Modulo {
   left: 0px;
   margin: 0px;
   padding: 0px;
-  position: fixed;
   right: 0px;
   border-bottom: 3px solid #049dd9;
   top: 0px;
   width: 100%;
-  z-index: 50px;
+/*z-index 50px*/
 }
 header.Modulo figure.Logo {
   height: auto;
@@ -68,8 +67,8 @@ div.Tv-newsContainer {
   height: auto;
   background: transparent;
   padding: 0px;
-  margin-bottom: 53px;
-  margin-top: 94px;
+/*margin-bottom 53px
+	margin-top 94px*/
 }
 div.Tv-newsContainer ul.flex-container {
   -webkit-flex-flow: row wrap;
@@ -517,7 +516,7 @@ footer.Contacto {
   height: auto;
   padding: 0px;
   margin: 0px;
-  margin-bottom: 53px;
+/*margin-bottom 53px*/
 }
 footer.Contacto h2.Title {
   text-align: center;

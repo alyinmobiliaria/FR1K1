@@ -4,10 +4,10 @@ nav.Modulo {
   bottom: 0;
   height: 50px;
   left: 0;
-  position: fixed;
+/*position fixed*/
   right: 0;
   width: 100%;
-  z-index: 6;
+/*z-index 6*/
 }
 nav.Modulo ul.container {
   height: 100%;
@@ -45,12 +45,11 @@ header.Modulo {
   left: 0px;
   margin: 0px;
   padding: 0px;
-  position: fixed;
   right: 0px;
   border-bottom: 3px solid #049dd9;
   top: 0px;
   width: 100%;
-  z-index: 50px;
+/*z-index 50px*/
 }
 header.Modulo figure.Logo {
   height: auto;
@@ -1290,7 +1289,7 @@ section.Principales {
   height: auto;
   width: 100%;
   padding: 0px;
-  margin-top: 95px;
+/*margin-top 95px*/
 }
 section.Principales div.Container-columnas {
   -webkit-flex-flow: row wrap;
@@ -1412,6 +1411,36 @@ section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.
   margin: 0px 4px 0px 4px;
   padding: 0px;
   color: #fff;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  -webkit-flex-flow: column;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  background: #d3d3d3;
+}
+section.Principales div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer img.Noticia1-logofont,
+section.Principales div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer img.Noticia1-logofont,
+section.Principales div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer img.Noticia1-logofont,
+section.Principales div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer img.Noticia1-logofont,
+section.Principales div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer img.Noticia1-logofont,
+section.Principales div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article footer.Noticia1-footer img.Noticia1-logofont {
+  margin: 0px auto;
+  padding: 10px;
+  width: 150px;
 }
 @media screen and (min-width: 320px) {
   html section.Principales div.Container-columnas div.Columna1,
@@ -2099,7 +2128,7 @@ footer.Contacto {
   height: auto;
   padding: 0px;
   margin: 0px;
-  margin-bottom: 53px;
+/*margin-bottom 53px*/
 }
 footer.Contacto h2.Title {
   text-align: center;
@@ -2536,5 +2565,5 @@ body.Home {
   background: #fff;
   font-family: Oswald;
   padding: 0px;
-  margin: 0px 0px 53px 0px;
+  margin: 0px 0px 0px 0px;
 }

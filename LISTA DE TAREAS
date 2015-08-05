@@ -6,15 +6,16 @@ LISTA DE TAREAS
 - Correr prepros y borrar archivos quee ese produce (.cfg)
 
 --SIN REALIZAR:
-2. CREAR TEMPLATE DE NOTICIA- ¿SE HIZO? SI()  NO()
+2. CREAR TEMPLATE DE NOTICIA - ¿SE HIZO? SI()  NO()
 3. CREAR FORMULARIOS LEADS Y CONTACTO CON PHP ("Se recomienda tomar el curso profesional de PLATZI") SI()  NO()
 4. CREAR TEMPLATE DE TIENDA (Queda pendiente definir activiades) SI()  NO()
 6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS
-7. Adaptar Template de Header y Nav, para dispositivos moviles.
-8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN
+8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN  SI()  NO()
+
 --REALIZADAS:
 1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI(x)  NO() - "Queda pendiente directorio de Blog"
 5. ORGANIZAR DIRECTORIOS (URGENTE) SI(x)  NO()
+7. Adaptar Template de Header y Nav, para dispositivos moviles.  SI(X)  NO()
 ------------------------------------------------------------------------
 1) DIRECTORIO DE NOTICIAS
 FR
