@@ -2,11 +2,11 @@
 fr
 //CONTENIDO DEL DIRECTORIO
 ------------------------------------------------------------------------------
-//Contenido en public
+
 .php
 .html
 - /public
-//Contenido
+
 - - images
 - - - .png
 - - - .svg
@@ -14,8 +14,10 @@ fr
 - - /css
 - - - Los estilos generales de la app
 
-//Contenido en lib (Archivos de dessarrollo)
+
 - /lib
+//Contenido en lib (Archivos de dessarrollo)
+
 - - /Header
 - - - .jade
 - - - .html

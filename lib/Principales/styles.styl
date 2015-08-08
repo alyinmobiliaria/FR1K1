@@ -25,7 +25,7 @@ section.Principales
 		div.Columna6
 			margin 15px
 			padding 0
-			width 99%
+			width 310px
 			background black
 			box-shadow 0 0 0 10px white,
           			   0 0 0 11px frblue,
@@ -44,8 +44,9 @@ section.Principales
 						width 100%
 						height auto
 						img.Noticia1-portadaImg
-							width 100%
+							width 310px
 							height auto
+							margin 0px auto 
 					div.Noticia1-info
 						-webkit-flex-flow row
 						display -moz-box
@@ -65,7 +66,7 @@ section.Principales
 							margin 0px 1px 0px 1px
 							padding 0px 3px 0px 3px
 							line-height 30px
-							color white
+							color white							
 					h2.Noticia1-title1
 						margin 0px 4px 0px 4px
 						padding 0px
@@ -74,24 +75,54 @@ section.Principales
 						margin 0px 4px 0px 4px
 						padding 0px
 						color white
-					footer.Noticia1-footer
-						width 100%
-						height auto
-						padding 0px
-						margin 0px
+					span.Noticia1-date
+						font-size .8em
+						margin 0px 1px 0px 1px
+						padding 0px 3px 0px 3px
+						line-height 30px
+						color orange
 						text-align center
-						-webkit-flex-flow column
-						display -moz-box
-						display -ms-flexbox
-						display -webkit-box
-						display -webkit-flex
-						display flex
-						justify-content center
-						background lightgray
-						img.Noticia1-logofont
-							margin 0px auto
-							padding 10px
-							width 150px
+			div.Noticia1-btnCompartir
+				width 100%
+				height auto
+				padding 0px
+				margin 0px
+				-webkit-flex-flow row wrap
+				display -moz-box
+				display -ms-flexbox
+				display -webkit-box
+				display -webkit-flex
+				display inline-flex
+				justify-content space-around
+				align-items center
+				background white
+				div.Noticia1-divHeader
+					width 100%
+					height 100%
+					padding 0px
+					margin 0px
+					text-align center
+					img.Noticia1-logofont
+						width 160px
+						padding 10px 5px 0px 5px
+						margin-right auto
+						margin-left auto
+						line-height 160px
+				a.Noticia1-btnlink1, a.Noticia1-btnlink2
+					width 50%
+					height auto
+					padding 0px
+					margin 0px
+					text-align center
+					color solid white
+					img.Noticia1-btnImg
+						width 30px
+						margin 0px 10px
+						padding 0px
+				a.Noticia1-btnlink1
+					text-align right
+				a.Noticia1-btnlink2
+					text-align left
 @media screen and (min-width 320px)
 	html
 		section.Principales
@@ -103,7 +134,7 @@ section.Principales
 				div.Columna5, 
 				div.Columna6
 					margin 20px auto
-					width 90%
+					width 80%
 					a.Noticia1-link
 						width 100%
 						height auto
@@ -118,13 +149,24 @@ section.Principales
 							div.Noticia1-info
 								width 100%
 								img.Noticia1-seccion
-									width 30px
+									width 20px
 								h3.Noticia1-title2
-									font-size 1.4em
+									font-size 1.2em
 							h2.Noticia1-title1
-								font-size 1.8em
+								font-size 1.2em
 							p.Noticia1-intro
-								font-size 1.3em
+								font-size 1em
+					// 		span.Noticia1-date
+					div.Noticia1-btnCompartir
+						div.Noticia1-divHeader
+							img.Noticia1-logofont
+								width 150px
+						a.Noticia1-btnlink1
+							img.Noticia1-btnImg
+								width 35px
+						a.Noticia1-btnlink2
+							img.Noticia1-btnImg
+								width 35px
 @media screen and (min-width 400px)
 	html
 		section.Principales
@@ -135,7 +177,8 @@ section.Principales
 				div.Columna4, 
 				div.Columna5, 
 				div.Columna6
-					width 90%
+					margin 20px auto
+					width 80%
 					a.Noticia1-link
 						width 100%
 						height auto
@@ -150,14 +193,25 @@ section.Principales
 							div.Noticia1-info
 								width 100%
 								img.Noticia1-seccion
-									width 30px
+									width 25px
 								h3.Noticia1-title2
-									font-size 1.5em
+									font-size 1.2em
 							h2.Noticia1-title1
-								font-size 1.8em
+								font-size 1.2em
 							p.Noticia1-intro
-								font-size 1.3em
-@media screen and (min-width 494px)
+								font-size 1em
+					// 		span.Noticia1-date
+					div.Noticia1-btnCompartir
+						div.Noticia1-divHeader
+							img.Noticia1-logofont
+								width 150px
+						a.Noticia1-btnlink1
+							img.Noticia1-btnImg
+								width 35px
+						a.Noticia1-btnlink2
+							img.Noticia1-btnImg
+								width 35px
+@media screen and (min-width 401px)
 	html
 		section.Principales
 			div.Container-columnas
@@ -167,7 +221,8 @@ section.Principales
 				div.Columna4, 
 				div.Columna5, 
 				div.Columna6
-					width 430px
+					margin 20px auto
+					width 360px
 					a.Noticia1-link
 						width 100%
 						height auto
@@ -182,14 +237,25 @@ section.Principales
 							div.Noticia1-info
 								width 100%
 								img.Noticia1-seccion
-									width 30px
+									width 25px
 								h3.Noticia1-title2
-									font-size 1.5em
+									font-size 1.2em
 							h2.Noticia1-title1
-								font-size 1.8em
+								font-size 1.2em
 							p.Noticia1-intro
-								font-size 1.4em
-@media screen and (min-width 600px)
+								font-size 1em
+					// 		span.Noticia1-date
+					div.Noticia1-btnCompartir
+						div.Noticia1-divHeader
+							img.Noticia1-logofont
+								width 150px
+						a.Noticia1-btnlink1
+							img.Noticia1-btnImg
+								width 35px
+						a.Noticia1-btnlink2
+							img.Noticia1-btnImg
+								width 35px
+@media screen and (min-width 720px)
 	html
 		section.Principales
 			div.Container-columnas
@@ -199,7 +265,68 @@ section.Principales
 				div.Columna4, 
 				div.Columna5, 
 				div.Columna6
-					width 500px
+					margin 20px auto
+					width 320px
+@media screen and (min-width 810px)
+	html
+		section.Principales
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					margin 20px auto
+					width 360px
+@media screen and (min-width 1080px)
+	html
+		section.Principales
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					margin 20px auto
+					width 320px
+@media screen and (min-width 1280px)
+	html
+		section.Principales
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					margin 20px auto
+					width 360px
+@media screen and (min-width 1440px)
+	html
+		section.Principales
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					margin 20px auto
+					width 380px
+@media screen and (min-width 1520px)
+	html
+		section.Principales
+			div.Container-columnas
+				div.Columna1, 
+				div.Columna2, 
+				div.Columna3, 
+				div.Columna4, 
+				div.Columna5, 
+				div.Columna6
+					margin 20px auto
+					width 460px
 					a.Noticia1-link
 						width 100%
 						height auto
@@ -214,14 +341,14 @@ section.Principales
 							div.Noticia1-info
 								width 100%
 								img.Noticia1-seccion
-									width 30px
+									width 35px
 								h3.Noticia1-title2
-									font-size 1.6em
+									font-size 1.5em
 							h2.Noticia1-title1
-								font-size 1.8em
-							p.Noticia1-intro
 								font-size 1.5em
-@media screen and (min-width 1000px)
+							p.Noticia1-intro
+								font-size 1.2em
+@media screen and (min-width 1840px)
 	html
 		section.Principales
 			div.Container-columnas
@@ -231,29 +358,9 @@ section.Principales
 				div.Columna4, 
 				div.Columna5, 
 				div.Columna6
-					width 599px
-					a.Noticia1-link
-						width 100%
-						height auto
-						article.Noticia1-article
-							width 100%
-							height auto
-							header.Noticia1-portada
-								width 100%
-								height auto
-								img.Noticia1-portadaImg
-									width 100%
-							div.Noticia1-info
-								width 100%
-								img.Noticia1-seccion
-									width 30px
-								h3.Noticia1-title2
-									font-size 1.7em
-							h2.Noticia1-title1
-								font-size 1.8em
-							p.Noticia1-intro
-								font-size 1.6em
-@media screen and (min-width 1198px)
+					margin 20px auto
+					width 480px
+@media screen and (min-width 1920px)
 	html
 		section.Principales
 			div.Container-columnas
@@ -263,91 +370,16 @@ section.Principales
 				div.Columna4, 
 				div.Columna5, 
 				div.Columna6
-					width 570px
-					a.Noticia1-link
-						width 100%
-						height auto
-						article.Noticia1-article
-							width 100%
-							height auto
-							header.Noticia1-portada
-								width 100%
-								height auto
-								img.Noticia1-portadaImg
-									width 100%
-							div.Noticia1-info
-								width 100%
-								img.Noticia1-seccion
-									width 30px
-								h3.Noticia1-title2
-									font-size 1.7em
-							h2.Noticia1-title1
-								font-size 1.8em
-							p.Noticia1-intro
-								font-size 1.6em
-@media screen and (min-width 1600px)
-	html
-		section.Principales
-			div.Container-columnas
-				div.Columna1, 
-				div.Columna2, 
-				div.Columna3, 
-				div.Columna4, 
-				div.Columna5, 
-				div.Columna6
-					width 430px
-					a.Noticia1-link
-						width 100%
-						height auto
-						article.Noticia1-article
-							width 100%
-							height auto
-							header.Noticia1-portada
-								width 100%
-								height auto
-								img.Noticia1-portadaImg
-									width 100%
-							div.Noticia1-info
-								width 100%
-								img.Noticia1-seccion
-									width 30px
-								h3.Noticia1-title2
-									font-size 1.7em
-							h2.Noticia1-title1
-								font-size 1.8em
-							p.Noticia1-intro
-								font-size 1.6em
-@media screen and (min-width 1710px)
-	html
-		section.Principales
-			div.Container-columnas
-				div.Columna1, 
-				div.Columna2, 
-				div.Columna3, 
-				div.Columna4, 
-				div.Columna5, 
-				div.Columna6
-					width 530px
-					a.Noticia1-link
-						width 100%
-						height auto
-						article.Noticia1-article
-							width 100%
-							height auto
-							header.Noticia1-portada
-								width 100%
-								height auto
-								img.Noticia1-portadaImg
-									width 100%
-							div.Noticia1-info
-								width 100%
-								img.Noticia1-seccion
-									width 30px
-								h3.Noticia1-title2
-									font-size 1.7em
-							h2.Noticia1-title1
-								font-size 1.8em
-							p.Noticia1-intro
-								font-size 1.6em
+					margin 20px auto
+					width 500px
+
+
+
+
+
+
+
+
+
 
 

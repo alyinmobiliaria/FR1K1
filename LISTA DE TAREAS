@@ -9,13 +9,14 @@ LISTA DE TAREAS
 2. CREAR TEMPLATE DE NOTICIA - ¿SE HIZO? SI()  NO()
 3. CREAR FORMULARIOS LEADS Y CONTACTO CON PHP ("Se recomienda tomar el curso profesional de PLATZI") SI()  NO()
 4. CREAR TEMPLATE DE TIENDA (Queda pendiente definir activiades) SI()  NO()
-6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS
-8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN  SI()  NO()
+9. VALIDACIONES DE FORMULARIOS CON JAVASCRIPT
 
 --REALIZADAS:
 1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI(x)  NO() - "Queda pendiente directorio de Blog"
 5. ORGANIZAR DIRECTORIOS (URGENTE) SI(x)  NO()
 7. Adaptar Template de Header y Nav, para dispositivos moviles.  SI(X)  NO()
+8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN  SI(X)  NO()
+6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS SI(X)  NO()
 ------------------------------------------------------------------------
 1) DIRECTORIO DE NOTICIAS
 FR
@@ -62,3 +63,11 @@ SE HIZO: Se pasaron archivos .jade principales a /lib, se compilaron y se export
 8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN
 - Agregar con la etiqueta correspondiente para que sea visible para el usuario la fecha de publicación.
 - Agregar botones para compartir las noticias directamente desde las secciones principales o anteriores.
+
+-------------------------------------------------------------
+9. VALIDACIÓN DE FORMULARIOS CON JAVASCRIPT
+- Es necesario validad form y sus respectivos inputs, para que siempre garantizemos que va a llegar información estricta y necesaria, para nuestras bases de datos.
+
+
+
+
