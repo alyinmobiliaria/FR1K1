@@ -1,13 +1,1 @@
-nav.Modulo {
-  left: 0;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: 6;
-  width: 100%;
-  height: 100px;
-  background: rgba(0, 0, 0, 0.8);
-}
-nav.Modulo ul.container li.flex-item a.Link img.Nav_img {
-  width: 30px;
-}
+nav.Modulo{background:rgba(0,0,0,0.8);border-top:3px solid #049dd9;bottom:0;height:50px;left:0;right:0;width:100%;}nav.Modulo ul.container{height:100%;list-style:none;margin:0 auto;padding:0;width:100%;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-flow:row;}nav.Modulo ul.container li.flex-item{height:100%;line-height:60px;text-align:center;width:15%;}nav.Modulo ul.container li.flex-item:hover{background:#d3d3d3}nav.Modulo ul.container li.flex-item a.Link{width:100%;}nav.Modulo ul.container li.flex-item a.Link img.Nav_img{padding:0;margin:0;width:30px}
