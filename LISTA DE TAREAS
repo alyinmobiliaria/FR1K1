@@ -17,6 +17,7 @@ LISTA DE TAREAS
 7. Adaptar Template de Header y Nav, para dispositivos moviles.  SI(X)  NO()
 8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN  SI(X)  NO()
 6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS SI(X)  NO()
+10. DEJAR ENLACES PARA NAVEGACIÓN POR SECCIONES DE NOTICIAS POR SUGERENCIA DE USUARIO SI(X) NO()
 ------------------------------------------------------------------------
 1) DIRECTORIO DE NOTICIAS
 FR
@@ -68,6 +69,10 @@ SE HIZO: Se pasaron archivos .jade principales a /lib, se compilaron y se export
 9. VALIDACIÓN DE FORMULARIOS CON JAVASCRIPT
 - Es necesario validad form y sus respectivos inputs, para que siempre garantizemos que va a llegar información estricta y necesaria, para nuestras bases de datos.
 
+-------------------------------------------------------------
+10. DEJAR ENLACES PARA NAVEGACIÓN POR SECCIONES DE NOTICIAS POR SUGERENCIA DE USUARIO
+- Un usuario sugirío que no existía un menú que le avisara en donde podría navegar entre las distintas secciones, antes de llegar al final de la pagina. 
+- Se agregaron Call to Action en las noticias de Principal y Anterior: Para compartir contenidos y para ir a la sección.
 
 
 
