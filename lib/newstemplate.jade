@@ -1,0 +1,32 @@
+doctype html
+html(lang="es")
+	head
+		title "TITULO DEL ENLACE"
+		meta(charset="utf-8")
+		meta(name="title", content="TITULO DEL ENLACE")
+		meta(description="TITULO DEL ENLACE: Vamos a decirlo en pocas palabras, FR1K1.COM es tu Web Magazine de noticias sobre el Cine, la Literatura, la Música, el Mundo Otaku, las series en Televisión, Nuestra Tienda Virtual, Vídeo en la web y los Vídeojuegos, somos Entretenimiento e Información. Te necesitamos porque eres nuestro apoyo para mejorar constantemente, gracias por compartir nuestra información con tus amigo(a)s, también por hacernos saber cuando te gustan nuestros artículos y además, por dejarnos conocer tu opinión en los comentarios, agradecemos infinitamente tu confianza y tu compañía, seguiremos evolucionando para lograr convertirnos en tu medio preferido de noticias. Te esperamos siempre.")
+		meta(name="viewport", content="width=device-width, maximum-scale=1")
+		link(rel="shortcut icon", href="../public/images/icon.png" type="image/svg")
+		link(rel="stylesheet", href="../public/css/app.css")
+		link(rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald")
+body(class="News")
+	//- include "./Header/template.jade"
+	article(class="News-template")
+		header(class="News-header")
+			h1(class="News-title") TITULO DEL ENLACE
+			p(class="News-introduccion")  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea reprehenderit, quisquam adipisci sed, consequatur blanditiis aut. Quasi blanditiis quo fugiat voluptatibus nesciunt voluptates autem dolores iusto soluta, facilis tenetur eaque!
+			//- iframe(class="ytplayer")
+			img(class="News-portada", src="http://previews.agefotostock.com/117pxtn0rk/previewimage/bajail/97ebcd42fb94bffaf3b48ffab98e97ec/t07-1062729.jpg")
+				figcaption 
+					a(class="News-creditos", href="pepitoperez.com") pepitoperez.com
+		h2 SUBTITULO DEL ENLACE
+		p(class="News-content")  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas fugit quis nulla numquam nisi, laborum repellendus reiciendis eum omnis quisquam culpa dolor. Tenetur explicabo ea molestiae aspernatur eligendi rerum numquam!
+		h3 SUBTITULO SECUNDARIO DEL ENLACE
+		p(class="News-content")	 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, eligendi deserunt fugit. A consequatur nisi vero exercitationem iste, deserunt neque velit atque natus saepe magni dignissimos, eaque eveniet, aliquid dolorum.
+		footer(class="News-reference")
+			div(class="News-autor")
+				CARD DE TWITTER DEL ESCRITOR
+	//- include "./Alianzas/templade.jade"
+	//- include "./Footer/templade.jade"
+	//- include "./Nav/template.jade"
+

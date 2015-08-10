@@ -10,7 +10,7 @@ LISTA DE TAREAS
 3. CREAR FORMULARIOS LEADS Y CONTACTO CON PHP ("Se recomienda tomar el curso profesional de PLATZI") SI()  NO()
 4. CREAR TEMPLATE DE TIENDA (Queda pendiente definir activiades) SI()  NO()
 9. VALIDACIONES DE FORMULARIOS CON JAVASCRIPT
-
+12. AGREGAR CAJA DE COMENTARIOS DE FACEBOOK, ADEMÁS DE BOTONES DE SHARED, PARA COMAPRTIR EN FACEBOOK Y EN TWITTER
 --REALIZADAS:
 1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI(x)  NO() - "Queda pendiente directorio de Blog"
 5. ORGANIZAR DIRECTORIOS (URGENTE) SI(x)  NO()
@@ -18,6 +18,8 @@ LISTA DE TAREAS
 8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN  SI(X)  NO()
 6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS SI(X)  NO()
 10. DEJAR ENLACES PARA NAVEGACIÓN POR SECCIONES DE NOTICIAS POR SUGERENCIA DE USUARIO SI(X) NO()
+11. INCLUIR TEMPLATES Y ESTILOS DE ESTE, EN DIRECTORIO DE DESARROLLO SI(X) NO()
+
 ------------------------------------------------------------------------
 1) DIRECTORIO DE NOTICIAS
 FR
@@ -74,5 +76,11 @@ SE HIZO: Se pasaron archivos .jade principales a /lib, se compilaron y se export
 - Un usuario sugirío que no existía un menú que le avisara en donde podría navegar entre las distintas secciones, antes de llegar al final de la pagina. 
 - Se agregaron Call to Action en las noticias de Principal y Anterior: Para compartir contenidos y para ir a la sección.
 
-
-
+------------------------------------------------------------------------
+11. INCLUIR TEMPLATES Y ESTILOS DE ESTE, EN DIRECTORIO DE DESARROLLO
+- Es necesario agregar o incluir estos archivos, dentro del directorio /lib porque, son archivos de desarrollo y crea una nueva actividad con la consola, habría que abrir una ventana nuevay compilarlos individualmente.
+- La solución que se propongo, es incluirlas en /lib con los nombres de templates indicando la sección a la que pertenecen.
+------------------------------------------------------------------------
+12. AGREGAR CAJA DE COMENTARIOS DE FACEBOOK, ADEMÁS DE BOTONES DE SHARED, PARA COMAPRTIR EN FACEBOOK Y EN TWITTER
+- Utilizar la aplicación de facebook para incrustar el codigo de la caja de comentarios en los distintos enlaces de noticias.
+- Crear botones CON LAS APIS de Facebook y twitter, para compartir los enlaces de las noticias en estás redes sociales. 
