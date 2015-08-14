@@ -62,453 +62,803 @@ header.Modulo figure.Logo img.Logo_img {
   width: 180px;
   line-height: 100%;
 }
-div.Videos-newsContainer {
-  width: 100%;
+section.Videos-news {
+  border-bottom: 3px solid #049dd9;
   height: auto;
-  background: transparent;
+  width: 100%;
   padding: 0px;
-/*margin-bottom 53px
-	margin-top 94px*/
+/*margin-top 95px*/
 }
-div.Videos-newsContainer ul.flex-container {
+section.Videos-news div.Container-columnas {
   -webkit-flex-flow: row wrap;
-  background: #fff;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-box;
   display: -webkit-flex;
-  display: flex;
-  height: uto;
+  display: inline-flex;
+  height: auto;
   justify-content: center;
-  list-style: none;
-  padding: 0px;
   width: 100%;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item {
-  width: 300px;
-  height: auto;
-  -webkit-flex-flow: row wrap;
-  background: #fff;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  background: #000;
-  margin: 20px auto 20px auto;
-  padding: 0px;
+section.Videos-news div.Container-columnas div.Columna1,
+section.Videos-news div.Container-columnas div.Columna2,
+section.Videos-news div.Container-columnas div.Columna3,
+section.Videos-news div.Container-columnas div.Columna4,
+section.Videos-news div.Container-columnas div.Columna5,
+section.Videos-news div.Container-columnas div.Columna6 {
+  margin: 15px;
+  padding: 0;
+  width: 310px;
   background: #000;
   box-shadow: 0 0 0 10px #fff, 0 0 0 11px #049dd9, 0 20px 20px -12px #000;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-}
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-  width: 100%;
-  height: auto;
-  padding: 0px;
-  margin: 0px;
-}
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-  width: 100%;
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link {
+  background: #4682b4;
   height: auto;
   margin: 0px;
   padding: 0px;
+  width: 310px;
+  text-decoration: none;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
   width: 100%;
+  height: auto;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
   width: 100%;
-  height: 30px;
-  padding: 0px;
-  margin: 0px;
-  -webkit-flex-flow: row wrap;
+  height: auto;
+}
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+  width: 310px;
+  height: auto;
+  margin: 0px auto;
+}
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+  -webkit-flex-flow: row;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
+  height: 30px;
+  width: 100%;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
   width: 20px;
   padding: 0px 3px 0px 3px;
   margin: 0px 1px 0px 1px;
   line-height: 30px;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-  padding: 0px 3px 0px 3px;
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+  font-size: 1.2em;
   margin: 0px 1px 0px 1px;
+  padding: 0px 3px 0px 3px;
   line-height: 30px;
-  font-size: 1em;
   color: #fff;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
   margin: 0px 4px 0px 4px;
   padding: 0px;
   color: #fff;
-  font-size: 1.3em;
 }
-div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-  font-size: 1em;
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
   margin: 0px 4px 0px 4px;
   padding: 0px;
   color: #fff;
+}
+section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article span.Noticia1-date,
+section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article span.Noticia1-date,
+section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article span.Noticia1-date,
+section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article span.Noticia1-date,
+section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article span.Noticia1-date,
+section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article span.Noticia1-date {
+  font-size: 0.8em;
+  margin: 0px 1px 0px 1px;
+  padding: 0px 3px 0px 3px;
+  line-height: 30px;
+  color: #ffa500;
+  text-align: center;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir {
+  border-top: 1px solid #049dd9;
+  width: 100%;
+  height: 30px;
+  padding: 5px 0px;
+  margin: 0px;
+  -webkit-flex-flow: row wrap;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0,0,0,0.8);
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir h4,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir h4,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir h4,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir h4,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir h4,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir h4 {
+  font-size: 1em;
+  width: 50%;
+  text-align: center;
+  line-height: 30px;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir a.Noticia1-fb,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir a.Noticia1-fb,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir a.Noticia1-fb,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir a.Noticia1-fb,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir a.Noticia1-fb,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir a.Noticia1-fb,
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir a.Noticia1-tw,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir a.Noticia1-tw,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir a.Noticia1-tw,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir a.Noticia1-tw,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir a.Noticia1-tw,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir a.Noticia1-tw {
+  width: 20%;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: solid #fff;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir a.Noticia1-fb img,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir a.Noticia1-fb img,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir a.Noticia1-fb img,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir a.Noticia1-fb img,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir a.Noticia1-fb img,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir a.Noticia1-fb img,
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir a.Noticia1-tw img,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir a.Noticia1-tw img,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir a.Noticia1-tw img,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir a.Noticia1-tw img,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir a.Noticia1-tw img,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir a.Noticia1-tw img {
+  width: 30px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 30px;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir a.Noticia1-fb:hover,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir a.Noticia1-fb:hover,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir a.Noticia1-fb:hover,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir a.Noticia1-fb:hover,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir a.Noticia1-fb:hover,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir a.Noticia1-fb:hover,
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-compartir a.Noticia1-tw:hover,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-compartir a.Noticia1-tw:hover,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-compartir a.Noticia1-tw:hover,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-compartir a.Noticia1-tw:hover,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-compartir a.Noticia1-tw:hover,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-compartir a.Noticia1-tw:hover {
+  background: #fff;
+  border-radius: 3px;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-linkSection:hover,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-linkSection:hover,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-linkSection:hover,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-linkSection:hover,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-linkSection:hover,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-linkSection:hover {
+  background: #d3d3d3;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-linkSection:hover a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-linkSection:hover a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-linkSection:hover a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-linkSection:hover a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-linkSection:hover a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-linkSection:hover a.Noticia1-btnSection h4 {
+  color: #049dd9;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-linkSection,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-linkSection,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-linkSection,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-linkSection,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-linkSection,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-linkSection {
+  width: 100%;
+  background: #049dd9;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-linkSection a.Noticia1-btnSection,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-linkSection a.Noticia1-btnSection,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-linkSection a.Noticia1-btnSection,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-linkSection a.Noticia1-btnSection,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-linkSection a.Noticia1-btnSection,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-linkSection a.Noticia1-btnSection {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-linkSection a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-linkSection a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-linkSection a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-linkSection a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-linkSection a.Noticia1-btnSection h4,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-linkSection a.Noticia1-btnSection h4 {
+  margin: 0px;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-decoration: underline;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-logoContainer,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-logoContainer,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-logoContainer,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-logoContainer,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-logoContainer,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-logoContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  background: #fff;
+  margin: 0px auto;
+}
+section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-logoContainer img,
+section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-logoContainer img,
+section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-logoContainer img,
+section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-logoContainer img,
+section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-logoContainer img,
+section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-logoContainer img {
+  width: 160px;
+  padding: 10px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 160px;
 }
 @media screen and (min-width: 320px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 80%;
   }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item {
-    width: 90%;
-    height: auto;
-  }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link {
     width: 100%;
     height: auto;
   }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
     width: 100%;
   }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
     width: 100%;
-    height: 30px;
   }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 25px;
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 20px;
   }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
     font-size: 1.2em;
   }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.5em;
-  }
-  html section.Videos-news div.Games-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
     font-size: 1.2em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont {
+    width: 150px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg {
+    width: 35px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg {
+    width: 35px;
   }
 }
 @media screen and (min-width: 400px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 80%;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
-    width: 90%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link {
     width: 100%;
     height: auto;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
     width: 100%;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
     width: 100%;
-    height: 30px;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
     width: 25px;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.3em;
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.2em;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.2em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont {
+    width: 150px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg {
+    width: 35px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 401px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 360px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 25px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
+    font-size: 1.2em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.2em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
+    font-size: 1em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir div.Noticia1-divHeader img.Noticia1-logofont {
+    width: 150px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir a.Noticia1-btnlink1 img.Noticia1-btnImg {
+    width: 35px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna2 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna3 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna4 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna5 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg,
+  html section.Videos-news div.Container-columnas div.Columna6 div.Noticia1-btnCompartir a.Noticia1-btnlink2 img.Noticia1-btnImg {
+    width: 35px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 810px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 380px;
+  }
+}
+@media screen and (min-width: 1520px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 460px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada {
+    width: 100%;
+    height: auto;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article header.Noticia1-portada img.Noticia1-portadaImg {
+    width: 100%;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info {
+    width: 100%;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info img.Noticia1-seccion {
+    width: 35px;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article div.Noticia1-info h3.Noticia1-title2 {
     font-size: 1.5em;
   }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article h2.Noticia1-title1 {
+    font-size: 1.5em;
+  }
+  html section.Videos-news div.Container-columnas div.Columna1 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna2 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna3 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna4 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna5 a.Noticia1-link article.Noticia1-article p.Noticia1-intro,
+  html section.Videos-news div.Container-columnas div.Columna6 a.Noticia1-link article.Noticia1-article p.Noticia1-intro {
     font-size: 1.2em;
   }
 }
-@media screen and (min-width: 494px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
-    width: 430px;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
-    width: 100%;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-    width: 100%;
-    height: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.3em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.7em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-    font-size: 1.3em;
+@media screen and (min-width: 1840px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
+    width: 480px;
   }
 }
-@media screen and (min-width: 600px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
+@media screen and (min-width: 1920px) {
+  html section.Videos-news div.Container-columnas div.Columna1,
+  html section.Videos-news div.Container-columnas div.Columna2,
+  html section.Videos-news div.Container-columnas div.Columna3,
+  html section.Videos-news div.Container-columnas div.Columna4,
+  html section.Videos-news div.Container-columnas div.Columna5,
+  html section.Videos-news div.Container-columnas div.Columna6 {
+    margin: 20px auto;
     width: 500px;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
-    width: 100%;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-    width: 100%;
-    height: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.5em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.8em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-    font-size: 1.35em;
-  }
-}
-@media screen and (min-width: 1000px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
-    width: 599px;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
-    width: 100%;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-    width: 100%;
-    height: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.5em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.9em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-    font-size: 1.35em;
-  }
-}
-@media screen and (min-width: 1198px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
-    width: 570px;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
-    width: 100%;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-    width: 100%;
-    height: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.5em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.8em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-    font-size: 1.35em;
-  }
-}
-@media screen and (min-width: 1600px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
-    width: 430px;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
-    width: 100%;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-    width: 100%;
-    height: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.5em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.7em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-    font-size: 1.3em;
-  }
-}
-@media screen and (min-width: 1710px) {
-  html section.Videos-news {
-    height: auto;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    margin-bottom: 48px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item {
-    width: 530px;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH {
-    width: 100%;
-    height: auto;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con header.Article-conH img.Article-conPor {
-    width: 100%;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec {
-    width: 100%;
-    height: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec img.Article-iconSec {
-    width: 30px;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con div.Article-conSec h3.Article-conTit {
-    font-size: 1.5em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con h2.Article-conTitInfo {
-    font-size: 1.8em;
-  }
-  html section.Videos-news div.Videos-newsContainer ul.flex-container li.flex-item a.Article article.Article-con p.Article-conInfo {
-    font-size: 1.35em;
   }
 }
 footer.Contacto {

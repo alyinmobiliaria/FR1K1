@@ -1,0 +1,438 @@
+//COLORES FR1K1.COM
+frblue = #049DD9
+//MODULO: Estilos de Demo Noticia
+body.Noticia
+	width 100%
+	height 100%
+	margin 0px
+	padding 0px
+	background frblue
+	text-align center
+	font-family oswald
+	header.Noticia-logoContainer
+		width 100%
+		height auto
+		padding 0px
+		margin 0px
+		background white
+		img
+			width 250px
+			margin auto auto
+	article.Noticia-article
+		background white
+		-webkit-flex-flow column wrap
+		align-items center
+		display -moz-box
+		display -ms-flexbox
+		display -webkit-box
+		display -webkit-flex
+		display flex
+		height auto
+		justify-content center
+		margin 40px auto
+		padding 0px
+		width 800px
+		box-shadow 0 0 0 10px white,
+          		   0 0 0 11px frblue,
+          		   0 20px 20px -12px black
+		div.Noticia-title
+			width 100%
+			height auto
+			padding 0px
+			margin 0px
+			background black
+			color white
+			h1
+				margin 10px auto 0px auto
+				padding 0px auto 
+				font-weight 700
+				font-size 2em
+			span.Noticia-date
+				color lightgray
+				margin 0px
+				padding 0px
+				width 30%
+		div.Noticia-section
+			width 100%
+			height 35px
+			padding 0px 0px 0px 0px
+			margin 0px 0px 0px 0px
+			-webkit-flex-flow row wrap 
+			align-items flex-start
+			display -moz-box
+			display -ms-flexbox
+			display -webkit-box
+			display -webkit-flex
+			display flex
+			height auto
+			justify-content flex-start
+			background black
+			border-bottom 3px solid white
+			div.Noticia-portada
+				width 100%
+				height auto
+				padding 0px
+				margin 0px
+				border-bottom 3px solid white
+				img
+					width 100%
+					padding 0px
+					margin 0px
+					margin-bottom 0px
+			img
+				width 35px
+				line-height 35px
+				padding 0px 0px 0px 5px
+				margin 0px
+			h3
+				line-height 35px
+				padding 0px 0px 0px 5px
+				margin 0px
+				color white
+				font-weight 300
+				a 
+					text-decoration underline
+					font-weight 700
+					color white
+		div.Noticia-titular
+			width 100%
+			height auto
+			padding 0px
+			margin 0px
+			background lightgray
+			border-bottom 3px solid white
+			h2
+				font-weight 400
+		div.Noticia1-compartir
+			border-top 1px solid frblue
+			width 100%
+			height 30px
+			padding 5px 0px
+			margin 0px
+			-webkit-flex-flow row wrap
+			display -moz-box
+			display -ms-flexbox
+			display -webkit-box
+			display -webkit-flex
+			display inline-flex
+			justify-content space-around
+			align-items center
+			background rgba(0,0,0,0.8)
+			h4
+				font-size 1em
+				width 50%
+				text-align center
+				line-height 30px
+				margin 0px
+				padding 0px
+				color white
+			a.Noticia1-fb, a.Noticia1-tw
+				width 20%
+				height 30px
+				padding 0px
+				margin 0px
+				text-align center
+				color solid white
+				img
+					width 30px
+					margin 0px
+					padding 0px
+					line-height 30px
+			a.Noticia1-fb:hover, a.Noticia1-tw:hover
+				background white
+				border-radius 3px
+		div.Noticia1-linkSection:hover
+			background lightgray
+			a.Noticia1-btnSection
+				h4
+					color frblue
+		div.Noticia1-linkSection
+			width 100%
+			background frblue
+			padding 0px
+			margin 0px
+			height auto
+			a.Noticia1-btnSection
+				width 100%
+				height auto
+				padding 0px
+				margin 0px
+				h4
+					margin 0px
+					padding 10px 0px
+					width 100%
+					text-align center
+					color white
+					text-decoration underline
+		div.Noticia1-logoContainer
+			width 100%
+			height auto
+			padding 0px
+			margin 0px
+			text-align center
+			background white
+			margin 0px auto
+			img
+				width 160px
+				padding 10px 5px 0px 5px
+				margin-right auto
+				margin-left auto
+				line-height 160px 
+	section.Alianzas
+		background white
+		margin auto auto
+	footer.Contacto
+		background white
+		height auto	
+// Desde aquí comienza el Responsive Web Design
+@media screen and (min-width 320px)
+	html
+		width 100%
+		height 100%
+		margin 0px
+		padding 0px
+	body.Noticia
+		width 100%
+		height 100%
+		margin 0px
+		padding 0px
+		header.Noticia-logoContainer
+			width 100%
+			height auto
+			img
+				width 250px
+				height auto
+		article.Noticia-article
+			width 90%
+			margin 15px auto 18px auto
+			div.Noticia-title
+				width 100%
+				h1
+					font-size 170%
+				span.Noticia-date
+					width 100%
+			div.Noticia-section
+				width 100%
+				div.Noticia-portada
+					width 100%
+					img
+						width 100%
+				img
+					width 35px
+				h3 	
+					font-size 130%
+					a
+						text-decoration underline
+			div.Noticia-titular
+				width 100%
+				border-bottom 3px solid darkgray
+				background black
+				h2
+					font-size 130%
+					text-align left
+					padding 20px
+					color white
+			p
+				margin 0px auto
+				font-size 130%
+				text-align left
+				padding 40px 20px
+				background white
+			div.Noticia1-compartir
+				width 100%
+				h4
+					font-size 130%
+				// a.Noticia1-fb
+					// img
+			// 	a.Noticia1-tw
+			// 		img
+			div.Noticia1-linkSection
+				width 100%
+				a.Noticia1-btnSection
+					width 100%
+					h4
+						font-size 130%
+		div.Noticia1-logoContainer
+			width 100%
+			height auto
+				img
+				width 160px
+				height auto
+		section.Alianzas
+			width 100%
+			background white
+			height auto
+		footer.Contacto		
+			width 100%
+			background white
+			height auto
+@media screen and (min-width 400px)
+	html
+		width 100%
+		height 100%
+		margin 0px
+		padding 0px
+	body.Noticia
+		width 100%
+		height 100%
+		margin 0px
+		padding 0px
+		header.Noticia-logoContainer
+			width 100%
+			height auto
+			img
+				width 250px
+				height auto
+		article.Noticia-article
+			width 90%
+			margin 15px auto 18px auto
+			div.Noticia-title
+				width 100%
+				h1
+					font-size 170%
+				span.Noticia-date
+					width 100%
+			div.Noticia-section
+				width 100%
+				div.Noticia-portada
+					width 100%
+					img
+						width 100%
+				img
+					width 35px
+				h3 	
+					font-size 130%
+					a
+						text-decoration underline
+			div.Noticia-titular
+				width 100%
+				border-bottom 3px solid darkgray
+				background black
+				h2
+					font-size 130%
+					text-align left
+					padding 0px 20px
+					color white
+			p
+				margin 0px auto
+				font-size 130%
+				text-align left
+				padding 40px 20px
+				background white
+			div.Noticia1-compartir
+				width 100%
+				h4
+					font-size 130%
+				// a.Noticia1-fb
+					// img
+			// 	a.Noticia1-tw
+			// 		img
+			div.Noticia1-linkSection
+				width 100%
+				a.Noticia1-btnSection
+					width 100%
+					h4
+						font-size 130%
+		div.Noticia1-logoContainer
+			width 100%
+			height auto
+				img
+				width 160px
+				height auto
+		section.Alianzas
+			width 100%
+			background white
+			height auto
+		footer.Contacto		
+			width 100%
+			background white
+			height auto
+@media screen and (min-width 800px)
+	html
+		width 100%
+		height 100%
+		margin 0px
+		padding 0px
+	body.Noticia
+		width 100%
+		height 100%
+		margin 0px
+		padding 0px
+		header.Noticia-logoContainer
+			width 100%
+			height auto
+			img
+				width 250px
+				height auto
+		article.Noticia-article
+			width 770px
+			margin 15px auto 18px auto
+			div.Noticia-title
+				width 100%
+				h1
+					font-size 200%
+				span.Noticia-date
+					width 100%
+			div.Noticia-section
+				width 100%
+				div.Noticia-portada
+					width 100%
+					img
+						width 100%
+				img
+					width 35px
+				h3 	
+					font-size 160%
+					a
+						text-decoration underline
+			div.Noticia-titular
+				width 100%
+				border-bottom 3px solid darkgray
+				background black
+				h2
+					font-size 160%
+					text-align left
+					padding 0px 20px
+					color white
+			p
+				margin 0px auto
+				font-size 160%
+				text-align left
+				padding 40px 20px
+				background white
+			div.Noticia1-compartir
+				width 100%
+				h4
+					font-size 160%
+				// a.Noticia1-fb
+					// img
+			// 	a.Noticia1-tw
+			// 		img
+			div.Noticia1-linkSection
+				width 100%
+				a.Noticia1-btnSection
+					width 100%
+					h4
+						font-size 160%
+		div.Noticia1-logoContainer
+			width 100%
+			height auto
+				img
+				width 160px
+				height auto
+		section.Alianzas
+			width 100%
+			background white
+			height auto
+		footer.Contacto		
+			width 100%
+			background white
+			height auto
+
+
+
+
+
+
+
+

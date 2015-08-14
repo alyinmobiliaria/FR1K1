@@ -1,0 +1,48 @@
+doctype html
+html(lang="es")
+	head
+		title El Declive de Apple | FR1K1.COM
+		meta(charset="utf-8")
+		meta(name="title", content="El Declive de Apple | FR1K1.COM")
+		meta(description="El Declive de Apple | FR1K1.COM: La empresa de Silicon Valley se desploma y cede terreno en el trillonario negocio de la tecnología y samsung escala gracias a la crisis.")
+		meta(name="viewport", content="width=device-width, maximum-scale=1")
+		link(rel="shortcut icon", href="../public/images/icon.png" type="image/svg")
+		link(rel="stylesheet", href="./public/css/app.css")
+		link(rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald")
+body(class="Noticia")
+	header(class="Noticia-logoContainer")
+		img(src="./public/images/logo.png")
+	article(class="Noticia-article")
+		div(class="Noticia-title")
+			h1 EL DECLIVE DE APPLE
+			span(class="Noticia-date") 06.08.15&nbsp;|&nbsp;09:30&nbsp;a.m.
+		div(class="Noticia-section")
+			div(class="Noticia-portada")
+				img(src="http://previews.agefotostock.com/117pxtn0rk/previewimage/bajail/97ebcd42fb94bffaf3b48ffab98e97ec/t07-1062729.jpg")
+			img(src="./public/images/books.svg")
+			h3 	
+				a(href="blog.html") BLOG
+		div(class="Noticia-titular")
+			h2 	"La empresa de Silicon Valley se desploma y cede terreno en el trillonario negocio de la tecnología y samsung escala gracias a la crisis"
+		p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis explicabo doloribus at, nostrum quaerat vel ipsum dignissimos nihil sequi neque expedita veniam nemo adipisci voluptatibus, repellendus tempore corporis quam.
+		p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis explicabo doloribus at, nostrum quaerat vel ipsum dignissimos nihil sequi neque expedita veniam nemo adipisci voluptatibus, repellendus tempore corporis quam.
+		p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis explicabo doloribus at, nostrum quaerat vel ipsum dignissimos nihil sequi neque expedita veniam nemo adipisci voluptatibus, repellendus tempore corporis quam.
+		//- p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis explicabo doloribus at, nostrum quaerat vel ipsum dignissimos nihil sequi neque expedita veniam nemo adipisci voluptatibus, repellendus tempore corporis quam.
+		//- p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis explicabo doloribus at, nostrum quaerat vel ipsum dignissimos nihil sequi neque expedita veniam nemo adipisci voluptatibus, repellendus tempore corporis quam.
+		//- p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae facilis explicabo doloribus at, nostrum quaerat vel ipsum dignissimos nihil sequi neque expedita veniam nemo adipisci voluptatibus, repellendus tempore corporis quam.
+		div(class="Noticia1-compartir")
+			h4 COMPARTE
+			a(class="Noticia1-fb", src="#")
+				img(src="../public/images/facebook.svg")
+			a(class="Noticia1-tw", src="#")
+				img(src="../public/images/twitter.svg")
+		div(class="Noticia1-linkSection")
+			a(class="Noticia1-btnSection", src="#")
+				h4 ¡MÁS NOTICIAS DE BLOG!
+		div(class="Noticia1-logoContainer")
+			img(src="../public/images/logofont.png")
+	section(class="Alianzas")
+		include ./Alianzas/template.jade
+	footer(class="Contacto")
+		include ./Footer/template.jade
+		include ./Nav/template.jade
