@@ -12,6 +12,7 @@ html(lang="es")
 body(class="Noticia")
 	header(class="Noticia-logoContainer")
 		img(src="./public/images/logo.png")
+		include ./Nav/template.jade
 	article(class="Noticia-article")
 		div(class="Noticia-title")
 			h1 EL DECLIVE DE APPLE
@@ -49,8 +50,6 @@ body(class="Noticia")
 			img(src="../public/images/logofont.png")
 		section(class="Alianzas")
 			include ./Alianzas/template.jade
-	footer(class="Contacto")
-		include ./Footer/template.jade
-		include ./Nav/template.jade
+			include ./Nav/template.jade
 	script(src="./public/js/fbcomments.js")
 	script(src="./public/js/facebooksdk.js")
