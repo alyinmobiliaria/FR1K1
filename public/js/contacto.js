@@ -66,7 +66,7 @@ function contactameForm()
 			telcel.focus();
 			verificar=false;
 		}
-		else if (telcel.value < 7 || telcel.value > 20)
+		else if (telcel.value < 7)
 			{
 				alert("El numero de whatsapp debe tener minimo 7 digitos y máximo 20");
 				telcel.focus();
