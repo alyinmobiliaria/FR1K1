@@ -1,0 +1,27 @@
+doctype html
+html(lang="es")
+	head
+		title CONTACTO | FR1K1.COM
+		meta(charset="utf-8")
+		meta(name="title", content="CONTACTO | FR1K1.COM")
+		meta(description="CONTACTO | FR1K1.COM: Somos un medio de información y entretenimiento, creado para ti. Tus comentarios, opiniones o sugerencias, son muy importantes para nosotros")
+		meta(name="viewport", content="width=device-width, maximum-scale=1")
+		link(rel="shortcut icon", href="../public/images/icon.png" type="image/svg")
+		link(rel="stylesheet", href="../public/css/contacto.css")
+		link(rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald")
+	body(class="Contacto")
+		div(class="Contacto-logoContainer")
+			img(class="Form-logoFont", src="./public/images/logo.png")
+		div(class="Contacto-pContainer")
+			h1 CONTACTO
+			include ./Nav/template.jade
+			p Somos un medio de información y entretenimiento, creado para ti. Tus comentarios, opiniones o sugerencias, son muy importantes para nosotros.
+		div(class="Contacto-form")
+			form(class="Contacto-formContainer", action="contactame.php", method="post", enctype="application/x-www-form-urlencoded", id="form", name="Contacto-form")
+				input(type="text", name="nombre", placeholder=" Nombre: Nombre y Apellido (No más)", id="nombre")
+				input(type="text", name="correo", placeholder=" Correo: example@dominio.algo", id="correo")
+				input(type="text" name="telefono" placeholder=" Tel/Cel: Desde 7, Hasta 10 Dígitos" id="telcel")
+				input(type="text", name="asunto", placeholder=" Asunto: Usa solo letras", id="asunto")
+				textarea(name="mensaje", placeholder=" ¡Escriba aquí su mensaje, pero recuerde, que no sea mayor a 255 caracteres!", id="mensaje")
+				input(type="button", value="CONTACTAME", id="contactame", name="btncontacto")
+script(src="./public/js/contacto.js")

@@ -9,14 +9,15 @@ LISTA DE TAREAS
 
 3. CREAR FORMULARIOS LEADS Y CONTACTO CON PHP ("Se recomienda tomar el curso profesional de PLATZI") SI()  NO()
 4. CREAR TEMPLATE DE TIENDA (Queda pendiente definir activiades) SI()  NO()
-9. VALIDACIONES DE FORMULARIOS CON JAVASCRIPT
 12. AGREGAR CAJA DE COMENTARIOS DE FACEBOOK, ADEMÁS DE BOTONES DE SHARED, PARA COMPARTIR EN FACEBOOK Y EN TWITTER SI() NO() (30% LISTO)
+13. CREAR CARTA CON LA INFO DE SEO PARA CADA SECCIÓN 
 
 --REALIZADAS:
 1. CREAR DIRECTORIOS O BASE DE DATOS PARA NOTICIAS - ¿SE HIZO? SI(x)  NO() - "Queda pendiente directorio de Blog"
 5. ORGANIZAR DIRECTORIOS (URGENTE) SI(x)  NO()
 7. Adaptar Template de Header y Nav, para dispositivos moviles.  SI(X)  NO()
 8. AGREGAR CALL TO ACTION A NOTICIAS PRINCIPALES Y ANTERIORES, ADEMÁS DE FECHAS DE PUBLICACIÓN  SI(X)  NO()
+9. VALIDACIONES DE FORMULARIOS CON JAVASCRIPT SI(X)  NO()
 6. CAMBIAR NOMBRE DE BOOKS A BLOG O INVESTIGAR MÁS SI(X)  NO()
 10. DEJAR ENLACES PARA NAVEGACIÓN POR SECCIONES DE NOTICIAS POR SUGERENCIA DE USUARIO SI(X) NO()
 11. INCLUIR TEMPLATES Y ESTILOS DE ESTE, EN DIRECTORIO DE DESARROLLO SI(X) NO()
@@ -85,3 +86,15 @@ SE HIZO: Se pasaron archivos .jade principales a /lib, se compilaron y se export
 12. AGREGAR CAJA DE COMENTARIOS DE FACEBOOK, ADEMÁS DE BOTONES DE SHARED, PARA COMAPRTIR EN FACEBOOK Y EN TWITTER
 - Utilizar la aplicación de facebook para incrustar el codigo de la caja de comentarios en los distintos enlaces de noticias.
 - Crear botones CON LAS APIS de Facebook y twitter, para compartir los enlaces de las noticias en estás redes sociales. 
+
+------------------------------------------------------------------------
+13. CREAR CARTA CON LA INFO DE SEO PARA CADA SECCIÓN 
+- El Seo no estaba bien planeado y la solución fue crear una carta con el h1 y la descripción correspondiente para cada section principal.
+
+
+
+
+
+
+
+
